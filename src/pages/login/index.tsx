@@ -75,8 +75,7 @@ const LoginForm = () => {
     let isValid = handleValidation();
     if (!isValid) {
       return false;
-    }
-    console.log(loginData);
+    }  
     if (
       loginData.email == "vivek.malpute@brainvire.com" &&
       loginData.password == "Vivek@123"
@@ -89,8 +88,7 @@ const LoginForm = () => {
       setLoginData({
         email: "",
         password: "",
-      });
-      
+      }); 
     }
   };
 
